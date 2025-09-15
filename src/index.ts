@@ -5,9 +5,9 @@ import { SSEServerTransport } from "@modelcontextprotocol/sdk/server/sse.js";
 import { ConfidentialClientApplication } from '@azure/msal-node';
 import axios from "axios";
 
-const clientId = "6d5ead6b-5ccb-485a-9fe3-87174e45e35d";
-const tenantId = "ba98c38b-86ae-4482-a67b-e39d3d421f68";
-const clientSecret = "r_N8Q~ez8Uk6jGaeDD.SOZGxyqstaBVU4ulMja4u";
+const clientId;
+const tenantId;
+const clientSecret;
 const scopes = ["https://graph.microsoft.com/.default"];
 const SITE_ID = "m365x49507934.sharepoint.com,7f979cef-fd8b-4bde-8138-03c9b73e2bde,c1a4f3e1-cd14-4d76-8412-01760787a802"
 const LIST_ID = "40d19dcd-f408-4304-914d-a33737fed295"
